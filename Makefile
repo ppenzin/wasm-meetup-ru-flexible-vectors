@@ -1,6 +1,6 @@
 PDFC=pdflatex
 
-FILE=WASM_long_vectors
+FILE=WASM_Meetup_RU3_flexible_vectors
 
 all: $(FILE).pdf
 
