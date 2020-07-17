@@ -1,9 +1,11 @@
 PDFC=pdflatex
 
-all: WASM_long_vectors.pdf
+FILE=WASM_long_vectors
 
-%.pdf: %.tex
-	$(PDFC) $< -o $@
+all: $(FILE).pdf
+
+$(FILE).pdf: $(FILE).tex
+	$(PDFC) $(FILE).tex -o $@
 
 clean:
 	rm -rf *.pdf *.aux *.log *.nav *.out *.snm *.toc *.vrb
