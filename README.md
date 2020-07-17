@@ -1,5 +1,7 @@
-Wasm long vectors
-=================
+Flexible Vectors - Презентация для третьего митапа по WebAssembly
+=================================================================
+
+Адаптированный перевод презентации https://github.com/penzn/wasm-long-vectors
 
 This presentation describes one way to extend Wasm SIMD, by defining longer (flexible) vectors in the spirit of existing Wasm semantics. This has been presented at a Wasm SIMD sync call at 2019-11-06.
 
